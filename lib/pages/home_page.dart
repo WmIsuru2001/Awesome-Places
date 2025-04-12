@@ -4,7 +4,7 @@ import 'package:awesome_places/pages/landmarks_page.dart';
 import 'package:awesome_places/pages/natural_wonders_page.dart';
 import 'package:awesome_places/pages/nightlife_page.dart';
 import 'package:awesome_places/utils/colors.dart';
-import 'package:awesome_places/widgets/home_page/category_card.dart';
+import 'package:awesome_places/widgets/reuserble/home_page/category_card.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -66,7 +66,8 @@ class HomePage extends StatelessWidget {
               ),
               Image.asset(
                 "assets/main.png",
-                width: 600,
+                width: double.infinity,
+                fit: BoxFit.cover,
               ),
               const SizedBox(
                 height: 20,
