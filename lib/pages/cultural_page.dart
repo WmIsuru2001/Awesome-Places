@@ -49,6 +49,18 @@ class CulturalPage extends StatelessWidget {
                   fontSize: 16,
                   fontWeight: FontWeight.w400,
                 ),
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(
+                height: 20,
+              ),
+              const Text(
+                "Rate this Place",
+                style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.w500,
+                  color: subCulturalColor,
+                ),
               ),
             ],
           ),
