@@ -1,4 +1,5 @@
 import 'package:awesome_places/utils/colors.dart';
+import 'package:awesome_places/widgets/shared/ratings.dart';
 import 'package:flutter/material.dart';
 
 class CulturalPage extends StatelessWidget {
@@ -62,6 +63,10 @@ class CulturalPage extends StatelessWidget {
                   color: subCulturalColor,
                 ),
               ),
+              const SizedBox(
+                height: 10,
+              ),
+              const Ratings(),
             ],
           ),
         ),
