@@ -17,6 +17,11 @@ class BookRidePage extends StatelessWidget {
           ),
         ),
       ),
+      body: const SingleChildScrollView(
+        child: Column(
+          children: [],
+        ),
+      ),
     );
   }
 }
