@@ -71,13 +71,6 @@ class BookRidePage extends StatelessWidget {
                     fontWeight: FontWeight.w500,
                     color: mainColor),
               ),
-              Text(
-                "Selected Place",
-                style: TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.w500,
-                    color: mainColor),
-              ),
             ],
           ),
         ),
