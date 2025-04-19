@@ -1,4 +1,4 @@
-import 'package:awesome_places/pages/book_ride_page.dart';
+import 'package:awesome_places/pages/booking_page/book_ride_page.dart';
 import 'package:awesome_places/pages/cultural_page.dart';
 import 'package:awesome_places/pages/landmarks_page.dart';
 import 'package:awesome_places/pages/natural_wonders_page.dart';
