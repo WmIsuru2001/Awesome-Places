@@ -47,10 +47,11 @@ class BookingsForm extends StatelessWidget {
           height: 10,
         ),
         Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Container(
-              width: 60,
-              height: 60,
+              width: 80,
+              height: 80,
               decoration: BoxDecoration(
                 color: mainColor,
                 borderRadius: BorderRadius.circular(100),
@@ -65,11 +66,40 @@ class BookingsForm extends StatelessWidget {
                   ),
                 ),
               ),
+            ),
+            const SizedBox(
+              width: 290,
+              child: Column(
+                children: [
+                  Text(
+                    "Add or Remove team members",
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.w400,
+                    ),
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      CustomButtons(
+                          buttonText: "Add +", buttonBgColor: mainGreen),
+                      CustomButtons(
+                          buttonText: "Remove -", buttonBgColor: mainRed)
+                    ],
+                  )
+                ],
+              ),
             )
           ],
         ),
         const SizedBox(
+          height: 20,
+        ),
+        const Divider(
           height: 10,
+        ),
+        const SizedBox(
+          height: 20,
         ),
         const Text(
           "datWelcome to our travel app, your ultimate guide to discovering captivating destinations around the globe! Whether you're seeking the tranquility visit offers something for every traveler.a",
