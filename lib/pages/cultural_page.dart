@@ -26,7 +26,7 @@ class CulturalPage extends StatelessWidget {
           child: Column(
             children: [
               const Text(
-                "Welcome to our travel app, your ultimate guide to discovering captivating destinations around the globe! Whether you're seeking the tranquility visit offers something for every traveler.",
+                "Explore cultural destinations known for their historical significance, art, traditions, and heritage. This section provides factual details about museums, monuments, festivals, and other culturally important sites.",
                 style: TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.w400,
@@ -47,7 +47,7 @@ class CulturalPage extends StatelessWidget {
                 height: 20,
               ),
               const Text(
-                "Welcome to our travel app, your ultimate guide to discovering captivating destinations around the globe! Whether you're seeking the tranquility visit offers something for every traveler.",
+                "Find information on cultural attractions, including opening hours, locations, and highlights. Ideal for travelers interested in learning about local customs and history.",
                 style: TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.w400,

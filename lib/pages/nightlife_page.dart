@@ -24,7 +24,7 @@ class NightlifePage extends StatelessWidget {
           child: Column(
             children: [
               const Text(
-                "Welcome to our travel app, your ultimate guide to discovering captivating destinations around the globe! Whether you're seeking the tranquility visit offers something for every traveler.",
+                "Explore nightlife destinations, including popular clubs, bars, entertainment venues, and local events. This section provides factual details on locations, hours, and amenities.",
                 style: TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.w400,
@@ -39,7 +39,7 @@ class NightlifePage extends StatelessWidget {
                 isCornerRounded: true,
                 subTextColor: subNightlifeColor,
                 description:
-                    "Welcome to our travel app, your ultimate guide to discovering captivating destinations around the globe! Whether you're seeking the tranquility visit offers something for every traveler.",
+                    "This nightlife venue is known for its atmosphere, music, and services. Find details about entry requirements, dress codes, and special events.",
               ),
               const SizedBox(
                 height: 20,
@@ -50,7 +50,7 @@ class NightlifePage extends StatelessWidget {
                 isCornerRounded: true,
                 subTextColor: subNightlifeColor,
                 description:
-                    "Welcome to our travel app, your ultimate guide to discovering captivating destinations around the globe! Whether you're seeking the tranquility visit offers something for every traveler.",
+                    "Get information on this venue's entertainment options, location, and visitor reviews. Includes tips for a safe and enjoyable night out.",
               ),
               const SizedBox(
                 height: 20,

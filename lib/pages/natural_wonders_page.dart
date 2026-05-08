@@ -24,7 +24,7 @@ class NaturalWondersPage extends StatelessWidget {
           child: Column(
             children: [
               const Text(
-                "Welcome to our travel app, your ultimate guide to discovering captivating destinations around the globe! Whether you're seeking the tranquility visit offers something for every traveler.",
+                "View natural wonders, including mountains, waterfalls, forests, and other remarkable landscapes. Each entry provides scientific facts, location details, and travel tips.",
                 style: TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.w400,
@@ -39,7 +39,7 @@ class NaturalWondersPage extends StatelessWidget {
                 isCornerRounded: false,
                 subTextColor: subNaturalWondersColor,
                 description:
-                    "Welcome to our travel app, your ultimate guide to discovering captivating destinations around the globe! Whether you're seeking the tranquility visit offers something for every traveler.",
+                    "This natural wonder is known for its unique geological features and ecological importance. Find out about its formation, best visiting seasons, and conservation status.",
               ),
               const SizedBox(
                 height: 20,
@@ -50,7 +50,7 @@ class NaturalWondersPage extends StatelessWidget {
                 isCornerRounded: false,
                 subTextColor: subNaturalWondersColor,
                 description:
-                    "Welcome to our travel app, your ultimate guide to discovering captivating destinations around the globe! Whether you're seeking the tranquility visit offers something for every traveler.",
+                    "Learn about the natural history, biodiversity, and visitor facilities of this site. Includes practical advice for eco-friendly travel.",
               ),
               const SizedBox(
                 height: 20,

@@ -55,7 +55,7 @@ class HomePage extends StatelessWidget {
                 height: 10,
               ),
               Text(
-                "Welcome to our travel app, your ultimate guide to discovering captivating destinations around the globe! Whether you're seeking the tranquility of scenic landscapes, the allure of historical landmarks, or the excitement of vibrant cities, our curated collection of places to visit offers something for every traveler.",
+                 "Browse a curated selection of global destinations, including natural wonders, cultural sites, landmarks, and vibrant nightlife. Use this app to plan your travels and discover detailed information about each location.",
                 style: TextStyle(
                   fontSize: 15,
                   color: mainTextColor,
