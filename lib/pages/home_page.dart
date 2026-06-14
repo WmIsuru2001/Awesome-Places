@@ -55,7 +55,7 @@ class HomePage extends StatelessWidget {
                 height: 10,
               ),
               Text(
-                 "Browse a curated selection of global destinations, including natural wonders, cultural sites, landmarks, and vibrant nightlife. Use this app to plan your travels and discover detailed information about each location.",
+                "Browse a curated selection of global destinations, including natural wonders, cultural sites, landmarks, and vibrant nightlife. Use this app to plan your travels and discover detailed information about each location.",
                 style: TextStyle(
                   fontSize: 15,
                   color: mainTextColor,
